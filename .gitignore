@@ -1,7 +1,2 @@
-logs
-tmp
-/.classpath
-/RUNNING_PID
-lib
 bin/
 .DS_Store
