@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Math Operations Test Suite">
+  <test name="Functional Tests - Add, Substration">
+    <classes>
+      <class name="com.test.testng.TestMathOps"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Functional Test - Multiplication">
+  		<classes>
+  			  <class name="com.test.testng.TestMathFunctions" />
+  		</classes>
+  </test>
+</suite> <!-- Default suite -->
