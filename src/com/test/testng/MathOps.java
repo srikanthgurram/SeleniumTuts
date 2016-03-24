@@ -2,11 +2,16 @@ package com.test.testng;
 
 public class MathOps {
 
-	public int Addition(int x, int y){
+	public int addition(int x, int y){
 		return x+y;
 	}
 	
-	public int Substraction(int x, int y){
+	public int substraction(int x, int y){
 		return x-y;
 	}
+	
+	public double multiplication(double x, double y){
+		return x*y;
+	}
+	
 }
