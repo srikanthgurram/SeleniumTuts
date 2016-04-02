@@ -5,7 +5,6 @@
 	<classpathentry kind="lib" path="libs/junit4-4.8.2.jar"/>
 	<classpathentry kind="lib" path="libs/selenium-java-2.52.0-srcs.jar"/>
 	<classpathentry kind="lib" path="libs/selenium-java-2.52.0.jar"/>
-	<classpathentry kind="lib" path="libs/testng-6.9.12-20160326.161803-1.jar"/>
 	<classpathentry kind="lib" path="libs/selenium/apache-mime4j-0.6.jar"/>
 	<classpathentry kind="lib" path="libs/selenium/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="libs/selenium/cglib-nodep-2.1_3.jar"/>
@@ -56,5 +55,6 @@
 	<classpathentry kind="lib" path="libs/selenium/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="libs/selenium/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="libs/selenium/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

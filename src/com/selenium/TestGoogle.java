@@ -1,7 +1,10 @@
 package com.selenium;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Sleeper;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -39,9 +42,24 @@ public void openGoogle(){
 	Assert.assertEquals(title, "Google");
 }
 
+@Test
+public void testSearch() throws InterruptedException{
+	//Enter text in the Search Box
+	WebElement searchField = driver.findElement(By.id("lst-ib"));
+//	searchField.click();
+	searchField.sendKeys("INDIA");
+	
+	//click on Search Button
+	WebElement searchButton = driver.findElement(By.id("sblsbb"));
+	searchButton.click();
+	Thread.sleep(1000);
+	//Verify the text in the search box
+	Assert.assertEquals(searchField.getText(), "INDIA");
+}
+
 @AfterClass
 public void tearDown(){
-	driver.quit();
+//	driver.quit();
 }
 	
 }
