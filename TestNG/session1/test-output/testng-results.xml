@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89" started-at="2016-03-21T17:46:51Z" finished-at="2016-03-21T17:46:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="89" started-at="2016-03-21T17:46:51Z" finished-at="2016-03-21T17:46:51Z">
+      <class name="com.test.TestMathOps">
+        <test-method status="PASS" signature="message()[pri:0, instance:com.test.TestMathOps@47d384ee]" name="message" duration-ms="32" started-at="2016-03-21T23:16:51Z" finished-at="2016-03-21T23:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- message -->
+        <test-method status="PASS" signature="testAdditon()[pri:0, instance:com.test.TestMathOps@47d384ee]" name="testAdditon" duration-ms="2" started-at="2016-03-21T23:16:51Z" finished-at="2016-03-21T23:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditon -->
+        <test-method status="PASS" signature="testSubstraction()[pri:0, instance:com.test.TestMathOps@47d384ee]" name="testSubstraction" duration-ms="3" started-at="2016-03-21T23:16:51Z" finished-at="2016-03-21T23:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstraction -->
+      </class> <!-- com.test.TestMathOps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
