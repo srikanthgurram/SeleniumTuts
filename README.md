@@ -45,11 +45,20 @@
 	* Validate the page title
 	* Close the browser after the test
 
-##Session 5: WebDriver - 2
+##Session 5: WebDriver - part2
 ##Topics:
 * Introduction to ChromeDriver
 * Installing & using Chromedriver in Windows & other os
 * Example running with chromedriver
 * Automating Input text elements with Selenium 
 	
+##Session 6: WebDriver - part3
+##Topics:
+* Automating Input text elements with Selenium
+* example code using facebook signup form
+
+
+#Session 7: Handle Radio buttons and Dropdown menus
+- code is in the package 'com.test2'
+
 	
