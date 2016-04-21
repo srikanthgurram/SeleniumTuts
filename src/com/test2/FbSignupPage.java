@@ -4,11 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import junit.framework.Assert;
 
 public class FbSignupPage {
 	
@@ -71,7 +70,6 @@ public class FbSignupPage {
 		day.selectByIndex(3);
 		
 	}
-	
 
 	@AfterClass
 	public void closeBrowser(){

@@ -61,4 +61,8 @@
 #Session 7: Handle Radio buttons and Dropdown menus
 - code is in the package 'com.test2'
 
-	
+#Session 8: 
+- Extracting More than one object from a page
+- Extracting all links of a page/Bulk extraction of objects
+- isDisplayed function
+- Finding whether object is present on page or not
